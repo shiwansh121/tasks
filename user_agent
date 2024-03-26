@@ -4,7 +4,6 @@ import requests
 current_year= datetime.datetime.now().year
 
 #Print the welcome message
-print("Welcome to",current_year)
 print("Welcome to 2022")
 
 #Get the user agent info
