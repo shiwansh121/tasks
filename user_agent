@@ -1,0 +1,14 @@
+import datetime
+import requests
+#Get the current year
+current_year= datetime.datetime.now().year
+
+#Print the welcome message
+print("Welcome to",current_year)
+print("Welcome to 2022")
+
+#Get the user agent info
+user_agent=request.get('htts://httpbin.org/user-agent').json['user-agent']
+
+#Print the user agent info
+print("User Agent",user_agent)
